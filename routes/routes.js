@@ -7,7 +7,7 @@ let router = express.Router();          // make a router
 
 // configure a route that is a get request (a request that fetches data)
 router.get('/', function(req, res, next) {
-    res.json( { 'message': 'Hello ITEC 2560 web programmers' } )
+    res.json( { 'message': 'Hello AWESOME ITEC 2560 web programmers' } )
 })
 
 module.exports = router;
